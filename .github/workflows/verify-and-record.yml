@@ -36,7 +36,7 @@ jobs:
             example_file=$(find . -path ./node_modules -prune -o -iname "*.py" -path "*demo*" -print -quit)
           fi
           if [ -n "$example_file" ]; then
-            python "$example_file" > results/last_run_output.txt 2>&1 || echo "(example run failed — see log above)" >> results/last_run_output.txt
+            PYTHONPATH=. python "$example_file" > results/last_run_output.txt 2>&1 || echo "(example run failed — see log above)" >> results/last_run_output.txt
           else
             echo "No example/demo script found." > results/last_run_output.txt
           fi
