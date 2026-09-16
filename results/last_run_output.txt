@@ -1,4 +1,4 @@
 Range‑sum results: [26, 36]
 Full state written to /home/runner/work/fenwick-config-engine-v2/fenwick-config-engine-v2/examples/results/output.json
 
-Recorded: 2026-09-16T01:51:53Z
+Recorded: 2026-09-16T01:56:43Z
