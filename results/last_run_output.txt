@@ -1,11 +1,4 @@
-Traceback (most recent call last):
-  File "/home/runner/work/fenwick-config-engine-v2/fenwick-config-engine-v2/./examples/run_fenwick.py", line 2, in <module>
-    from engine.config import load_config, EngineRunner
-  File "/home/runner/work/fenwick-config-engine-v2/fenwick-config-engine-v2/engine/__init__.py", line 4, in <module>
-    from .config import load_config, EngineRunner
-  File "/home/runner/work/fenwick-config-engine-v2/fenwick-config-engine-v2/engine/config.py", line 27, in <module>
-    import yaml
-ModuleNotFoundError: No module named 'yaml'
-(example run failed — see log above)
+Range‑sum results: [26, 36]
+Full state written to /home/runner/work/fenwick-config-engine-v2/fenwick-config-engine-v2/examples/results/output.json
 
-Recorded: 2026-09-16T01:48:41Z
+Recorded: 2026-09-16T01:51:53Z
