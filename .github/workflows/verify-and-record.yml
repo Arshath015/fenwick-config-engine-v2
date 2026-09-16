@@ -18,8 +18,14 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
           pip install pytest
+          req_file=$(find . -iname "requirements.txt" -print -quit)
+          if [ -n "$req_file" ]; then
+            echo "Found requirements at: $req_file"
+            pip install -r "$req_file"
+          else
+            echo "No requirements.txt found — continuing with stdlib only."
+          fi
       - name: Run tests
         run: pytest -q || echo "TEST_FAILURES=1" >> $GITHUB_ENV
       - name: Run example and capture output
