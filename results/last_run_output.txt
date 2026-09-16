@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/runner/work/fenwick-config-engine-v2/fenwick-config-engine-v2/./examples/run_fenwick.py", line 2, in <module>
+    from engine.config import load_config, EngineRunner
+ModuleNotFoundError: No module named 'engine'
+(example run failed — see log above)
+
+Recorded: 2026-09-16T01:45:24Z
