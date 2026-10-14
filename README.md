@@ -118,3 +118,7 @@ The test suite covers core tree operations, edge‑case error handling, and full
 ## License
 
 MIT License
+
+
+---
+**Last updated:** 2026-10-14
